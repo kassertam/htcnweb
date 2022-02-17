@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: auto;
+            padding: 0px;
+        }
+        .wrapper{
+            height: 700px;
+            width: 1080px;
+            background-color: aquamarine;
+        }
+        header{
+            height: 150px;
+            width: 100%;
+            background-color: brown;
+        }
+        nav{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: block;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            height: 350px;
+            width: 100%;
+            background-color: blue;
+            clear: both;
+        }
+        aside{
+            height: 100%;
+            width: 30%;
+            background-color:rgb(199, 183, 94);
+            float: left;
+        }
+        
+        section{
+            height: 100%;
+            width: 50%;
+            background-color: beige;
+            float: left;
+        }
+        section2{
+            height: 100%;
+            width: 20%;
+            background-color:rgb(165, 221, 168);
+            float: right;
+        }
+
+        footer{
+            height: 150px;
+            width: 100%;
+            background-color: rgb(4, 82, 37);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <nav>
+            <nav>
+                <a href="/html/">HTML</a> |
+                <a href="/css/">CSS</a> |
+                <a href="/js/">JavaScript</a> |
+                <a href="/python/">Python</a>
+              </nav>
+        </nav>
+        <div class="content">
+            <aside>
+                <h1>Trang web dau tien</h1>
+                <p>Samsung Vina giới thiệu tại Việt Nam loạt sản phẩm máy tính bảng Galaxy Tab S8 Series mới gồm Galaxy Tab S8, Tab S8+ và Tab S8 Ultra với màn hình có kích thước lớn nhất, hiệu suất vượt trội nhất. Với phần cứng mạnh mẽ, hiệu suất đỉnh cao và hệ sinh thái liền mạch mà người dùng Galaxy tin tưởng sẽ được kết hợp vào trong một thiết bị quyền năng duy nhất, trở thành người bạn đồng hành hoàn hảo của bạn trong thời đại công nghệ. Galaxy Tab S8 Series sẽ mang đến cho bạn sự tự do và linh hoạt như chưa từng có để bạn làm việc và giải trí ở mọi nơi.</p>
+
+            </aside>
+            
+            <section>
+                <form action="/action_page.php">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                    <input type="submit" value="Submit">
+                    </form> 
+                
+                    
+            </section>
+            <section2>
+                <form>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label>
+                  </form>
+            </section2>
+                
+                  
+            
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
